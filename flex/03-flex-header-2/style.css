@@ -49,13 +49,16 @@ ul {
 
 /* Solution */
 
-ul{
-  display: flex;
-}
-
 .header{
   display: flex;
   align-items: center;
+  padding: 8px;
+}
+
+ul{
+  display: flex;
+  gap: 8px;
+  padding: 0 8px;
 }
 
 .notification{
