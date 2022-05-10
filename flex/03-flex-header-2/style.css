@@ -56,15 +56,10 @@ ul{
 .header{
   display: flex;
   align-items: center;
-  justify-content: ;
 }
 
 .notification{
   display: flex;
   gap: 16px;
   margin-left: auto;
-}
-
-.links{
-  flex: auto;
 }
