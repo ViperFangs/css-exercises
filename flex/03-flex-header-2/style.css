@@ -62,7 +62,7 @@ ul{
 .notification{
   display: flex;
   gap: 16px;
-  flex: auto;
+  margin-left: auto;
 }
 
 .links{
