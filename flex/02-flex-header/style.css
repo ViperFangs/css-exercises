@@ -2,9 +2,6 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 80px;
 }
 
 .logo {
@@ -29,6 +26,12 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+/* My solution, I manipulate normal css too but thats not needed
+.header  {
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
 
 .left-links{
   padding-left: 15px;
@@ -42,3 +45,22 @@ a {
 li{
   display: inline;
 }
+*/
+
+.header {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+/* What I figured out: 
+I can make ul a flex box too and make it act like container 
+rather than changing display to inline for ul */
