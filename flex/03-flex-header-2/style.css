@@ -59,6 +59,7 @@ ul{
   display: flex;
   margin: 0;
   gap: 16px;
+  padding: 0 8px;
 }
 
 .notification{
