@@ -46,3 +46,25 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Solution */
+
+ul{
+  display: flex;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: ;
+}
+
+.notification{
+  display: flex;
+  gap: 16px;
+  flex: auto;
+}
+
+.links{
+  flex: auto;
+}
