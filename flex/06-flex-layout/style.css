@@ -42,16 +42,23 @@ ul{
   margin: 0;
 }
 
+
 .header,
 .footer{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
 .footer{
   margin-top: auto;
-  align-content: flex-end;
   background-color: lightgray;
+}
+
+.content-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-links,
@@ -59,4 +66,15 @@ ul{
   display: flex;
   gap: 16px;
   margin: 8px;
+}
+
+.buttons,
+.input{
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+button{
+  padding: 12px;
 }
