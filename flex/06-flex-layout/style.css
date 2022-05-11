@@ -52,6 +52,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 8px;
 }
 
 .footer{
@@ -59,9 +60,10 @@ body{
   background-color: lightgray;
 }
 
-.content-flex{
+.content{
+  margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -72,8 +74,8 @@ body{
   margin: 8px;
 }
 
-.buttons,
-.input{
+.buttons
+{
   display: flex;
   justify-content: center;
   gap: 8px;
