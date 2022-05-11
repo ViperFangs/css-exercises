@@ -67,5 +67,18 @@ li{
 
 .middle-container{
   display: flex;
-  height: auto;
+  flex: auto;
+}
+
+.card{
+width: 350px;
+height: auto;
+padding: 16px;
+margin: 16px;
+}
+
+.card-content{
+  display: flex;
+  flex-wrap: wrap;
+  gao
 }
