@@ -27,17 +27,22 @@ img {
 
 /* Solution */
 
-.container{
-  display: flex;
-  justify-content: space-around;
-}
-
 .title{
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
 }
 
-.text{
-  align-self: flex-end;
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.one,.two,.three,.four{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  
 }
